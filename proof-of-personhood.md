@@ -1,0 +1,1 @@
+All the users will be verified on basis of their mobile number.
