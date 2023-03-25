@@ -6,13 +6,13 @@
       "id": "@id",
       "type": "@type",
       "PersonData": {
-        "@id": "https://raw.githubusercontent.com/0xPolygonID/tutorial-examples/main/credential-schema/schemas-examples/employee-data/employee-data.jsonld#EmployeeData",
+        "@id": "https://raw.githubusercontent.com/Pranav543/scaling-eth-23/main/proof-of-personhood.jsonld#PersonData",
         "@context": {
           "@version": 1.1,
           "@protected": true,
           "id": "@id",
           "type": "@type",
-          "vocab": "https://github.com/0xPolygonID/tutorial-examples/blob/main/credential-schema/schemas-examples/employee-data/employee-data-vocab.md#",
+          "vocab": "https://raw.githubusercontent.com/Pranav543/scaling-eth-23/main/proof-of-personhood.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "mobNumber": {
             "@id": "vocab:mobNumber",
