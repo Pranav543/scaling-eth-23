@@ -81,7 +81,7 @@
     },
     "credentialSubject": {
       "type": "object",
-      "required": ["id", "mobNumber"],
+      "required": ["id", "mobNumber", "documentType"],
       "properties": {
         "id": {
           "title": "Credential Subject ID",
@@ -89,6 +89,9 @@
           "format": "uri"
         },
         "mobNumber": {
+          "type": "string"
+        },
+        "documentType": {
           "type": "integer"
         }
       }

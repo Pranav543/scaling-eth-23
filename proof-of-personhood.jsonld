@@ -5,17 +5,21 @@
       "@protected": true,
       "id": "@id",
       "type": "@type",
-      "PersonData": {
-        "@id": "https://raw.githubusercontent.com/Pranav543/scaling-eth-23/main/proof-of-personhood.jsonld#PersonData",
+      "MobileCreds": {
+        "@id": "https://raw.githubusercontent.com/Pranav543/scaling-eth-23/main/proof-of-personhood.jsonld#MobileCreds",
         "@context": {
           "@version": 1.1,
           "@protected": true,
           "id": "@id",
           "type": "@type",
-          "vocab": "https://raw.githubusercontent.com/Pranav543/scaling-eth-23/main/proof-of-personhood.md#",
+          "kyc-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/kyc.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "mobNumber": {
-            "@id": "vocab:mobNumber",
+            "@id": "kyc-vocab:mobNumber",
+            "@type": "xsd:string"
+          },
+          "documentType": {
+            "@id": "kyc-vocab:documentType",
             "@type": "xsd:integer"
           }
         }
